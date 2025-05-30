@@ -1,134 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Diksha Negi | Data Analytics Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: linear-gradient(to right, #555, #777);
-      padding: 10px 20px;
-      color: white;
-    }
-    .tabs {
-      display: flex;
-    }
-    .tab {
-      padding: 10px 20px;
-      cursor: pointer;
-      font-weight: bold;
-    }
-    .tab.active {
-      background-color: white;
-      color: black;
-    }
-    .icons a {
-      color: white;
-      margin-left: 15px;
-      text-decoration: none;
-      font-size: 1.2em;
-    }
-    .content {
-      padding: 30px 20px;
-      max-width: 900px;
-      margin: auto;
-      display: none;
-    }
-    .content.active {
-      display: block;
-    }
-    .project, .bio {
-      background-color: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-left: 4px solid #3f51b5;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-    .resume-button {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 20px;
-      background-color: #3f51b5;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-    .resume-button:hover {
-      background-color: #303f9f;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #eee;
-      margin-top: 40px;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body>
-  <div class="navbar">
-    <div class="tabs">
-      <div class="tab active" onclick="showTab('projects')">MY PROJECTS</div>
-      <div class="tab" onclick="showTab('about')">ABOUT ME</div>
+<body class="is-preload">
+
+  <!-- Wrapper -->
+  <div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+    <div id="intro">
+      <h1>Diksha Negi<br />
+        Data Analytics Portfolio</h1>
+      <p>Master's student in Advanced Data Analytics at UNT, passionate about using Python, SQL, and Power BI to solve real-world problems across finance, healthcare, and public service.<br />
+        Connect with me: <a href="https://www.linkedin.com/in/dikshanegi">LinkedIn</a></p>
+      <ul class="actions">
+        <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Explore</a></li>
+      </ul>
     </div>
-    <div class="icons">
-      <a href="https://www.linkedin.com/in/dikshanegi12/" target="_blank">🔗</a>
-      <a href="https://github.com/dikshanegi12" target="_blank">💻</a>
-      <a href="mailto:dikshanegi2503@gmail.com">✉️</a>
+
+    <!-- Header -->
+    <header id="header">
+      <a href="index.html" class="logo">Diksha Negi</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li class="active"><a href="index.html">Portfolio</a></li>
+      </ul>
+      <ul class="icons">
+        <li><a href="https://github.com/dikshanegi12" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="mailto:dikshanegi2503@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        <li><a href="https://www.linkedin.com/in/dikshanegi" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+      <!-- Featured Project -->
+      <article class="post featured">
+        <header class="major">
+          <span class="date">Coming Soon</span>
+          <h2><a href="#">Loan Default Prediction<br />
+              using Python & Power BI</a></h2>
+          <p>Built a predictive model to estimate loan default risk using historical customer and credit data, improving classification accuracy by 18%.</p>
+        </header>
+        <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+        <ul class="actions special">
+          <li><a href="https://github.com/dikshanegi12" class="button large">View on GitHub</a></li>
+        </ul>
+      </article>
+
+      <!-- More Projects (add as needed) -->
+      <section class="posts">
+        <article>
+          <header>
+            <span class="date">Planned</span>
+            <h2><a href="#">Healthcare Cost Analysis</a></h2>
+          </header>
+          <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+          <p>Analyzing trends in hospital billing and patient cost using public healthcare datasets and Power BI dashboards.</p>
+          <ul class="actions special">
+            <li><a href="#" class="button">Coming Soon</a></li>
+          </ul>
+        </article>
+        <article>
+          <header>
+            <span class="date">Planned</span>
+            <h2><a href="#">City Budget Insights</a></h2>
+          </header>
+          <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+          <p>Visualizing and exploring budget allocations and spending trends in city finance departments using open government data.</p>
+          <ul class="actions special">
+            <li><a href="#" class="button">Coming Soon</a></li>
+          </ul>
+        </article>
+      </section>
+
     </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <section class="split contact">
+        <section class="alt">
+          <h3>Location</h3>
+          <p>Denton, TX, USA</p>
+        </section>
+        <section>
+          <h3>Phone</h3>
+          <p><a href="#">+1 (940) 629-6865</a></p>
+        </section>
+        <section>
+          <h3>Email</h3>
+          <p><a href="mailto:dikshanegi2503@gmail.com">dikshanegi2503@gmail.com</a></p>
+        </section>
+        <section>
+          <h3>Social</h3>
+          <ul class="icons alt">
+            <li><a href="https://github.com/dikshanegi12" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/dikshanegi" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+          </ul>
+        </section>
+      </section>
+    </footer>
+
+    <!-- Copyright -->
+    <div id="copyright">
+      <ul><li>&copy; 2025 Diksha Negi</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+    </div>
+
   </div>
 
-  <div id="projects" class="content active">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project Title (Coming Soon)</h3>
-      <p><strong>Tools:</strong> Python, SQL, Power BI</p>
-      <p>1-line summary of the project will be added soon.</p>
-    </div>
-    <div class="project">
-      <h3>Project Title (Coming Soon)</h3>
-      <p><strong>Tools:</strong> Python, SQL, Excel</p>
-      <p>1-line summary of the project will be added soon.</p>
-    </div>
-    <div class="project">
-      <h3>Project Title (Coming Soon)</h3>
-      <p><strong>Tools:</strong> Power BI, Python, Tableau</p>
-      <p>1-line summary of the project will be added soon.</p>
-    </div>
-  </div>
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 
-  <div id="about" class="content">
-    <h2>About Me</h2>
-    <div class="bio">
-      <p>My journey into data analytics began with a curiosity about how information—when interpreted correctly—can solve real problems and drive meaningful outcomes. Starting my career as a Linux Administrator at JIO, I gained strong technical foundations in managing systems, automation, and structured operations. But my turning point came during my data analyst internship, where I was introduced to the power of analytics in uncovering trends, cleaning messy datasets, and driving decisions through dashboards and reporting tools.</p>
-      <p>Now, as a Master’s student in Advanced Data Analytics at the University of North Texas, I’m focused on building the skills that make a true analyst valuable: data wrangling, visualization, storytelling, and problem-solving. I work regularly with tools like Python, SQL, Power BI, and Excel, and I’ve built dashboards, predictive scripts, and reporting pipelines that turn complex data into accessible insights. Whether it's identifying bottlenecks in operational workflows or mapping financial trends across loan portfolios, I love helping stakeholders make sense of data.</p>
-      <p>My interests span healthcare, finance, government analytics, and public service, where data can improve systems and lives—not just metrics. I believe in the value of collaboration, and I’ve learned the most while working on cross-functional teams with diverse perspectives. I take pride in not just understanding the technical side, but in communicating results clearly to both technical and non-technical audiences.</p>
-      <p>Looking ahead, I hope to grow in roles that allow me to use data to support evidence-based decisions, improve performance, and increase transparency—especially in mission-driven sectors. I’m always learning, building, and contributing. This portfolio reflects the journey I’m on, the work I’ve done, and the impact I aim to make.</p>
-      <p><strong>📧 Email:</strong> dikshanegi2503@gmail.com<br><strong>📞 Contact:</strong> +1 (940) 629-6865</p>
-      <a class="resume-button" href="resume.pdf" target="_blank">View Resume</a>
-    </div>
-  </div>
-
-  <footer>
-    <p>© 2025 Diksha Negi. All rights reserved.</p>
-  </footer>
-
-  <script>
-  function showTab(tab) {
-    document.querySelectorAll('.tab').forEach(el => el.classList.remove('active'));
-    document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
-    document.querySelector(`.tab[onclick*='${tab}']`).classList.add('active');
-    document.getElementById(tab).classList.add('active');
-  }
-</script> 
 </body>
 </html>
-
